@@ -1,0 +1,285 @@
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  width: 133.41px;
+  height: 40px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  padding: 0.47px 0.94px 0.12px 0.94px;
+}
+
+.music {
+  position: absolute;
+  width: 432px;
+  height: 803px;
+  top: 40px;
+  left: 280px;
+  padding: 1px;
+}
+
+.songs-container {
+  position: absolute;
+  width: 490px;
+  height: 720px;
+  top: 101px;
+  left: 874px;
+  gap: 32px;
+}
+
+.music-types {
+  display: flex;
+  color: white;
+}
+
+.music-types > h1 {
+  flex-direction: row;
+  height: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  padding: 5px;
+}
+.top-track {
+  opacity: 0.5;
+}
+
+.music-search {
+  width: 400px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 8px 0px 0px 0px;
+  background: #ffffff14;
+}
+
+.music-search > input {
+  flex-grow: 1;
+  padding: 6.33px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  opacity: 0.8;
+  width: 165px;
+  height: 28px;
+}
+
+.music-search > input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.music-search > span {
+  opacity: 0.8;
+}
+
+.for-you:visited {
+  color: white;
+}
+
+.tab {
+  cursor: pointer;
+  margin: 0 15px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 1.2em;
+  opacity: 0.5;
+}
+
+.tab:hover {
+  color: white;
+  opacity: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 431px;
+}
+
+.container > div {
+  height: 432px;
+  width: 80px;
+}
+
+.container > div > img {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+.last {
+  font-family: Inter;
+  position: absolute;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  padding: 20px;
+  margin: 10px;
+  left: 270px;
+  color: white;
+}
+
+.container > div > span {
+  display: inline-block;
+  padding: 10px;
+  width: 150px;
+  color: white;
+}
+
+.container:hover {
+  background-color: rgb(31, 31, 31);
+  cursor: pointer;
+}
+
+.songs-container > p {
+  color: white;
+  display: inline-block;
+}
+
+.image {
+  background-color: black;
+}
+
+.image > img {
+  width: 100%;
+  height: 510px;
+  gap: 24px;
+  opacity: 1;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #555;
+  margin-top: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #fff;
+  width: 0%;
+}
+
+.songs-name {
+  color: white;
+}
+
+.songs-name > p,
+.songs-name > h1 {
+  color: #ffffff;
+  font-style: inter;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin: 20px 0 20px 0;
+}
+
+.left-side,
+.middle,
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  border-radius: 100px;
+  margin: 0;
+}
+
+.left-side {
+  width: 45px;
+  margin-left: 0;
+}
+
+.middle {
+  justify-content: space-around;
+  width: 200px;
+}
+
+.right-side {
+  width: 45px;
+  margin-right: 0;
+}
+
+.controls svg {
+  color: white;
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 320px) {
+  .logos {
+    width: 50%;
+    height: 100px;
+  }
+  .music {
+    position: absolute;
+    width: 432px;
+    height: 803px;
+    top: 0px;
+    left: 0px;
+    padding: 1px;
+  }
+}
+@media (max-width: 375px) {
+  .logos {
+    width: 50%;
+    height: 100px;
+  }
+  .music {
+    position: absolute;
+    width: 432px;
+    height: 803px;
+    top: 40px;
+    left: 280px;
+    padding: 1px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logos {
+    width: 50%;
+    height: 100px;
+  }
+  .music {
+    position: absolute;
+    width: 432px;
+    height: 803px;
+    top: 40px;
+    right: 0px;
+    padding: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .logos {
+    width: 200px;
+    height: 100px;
+  }
+  .music {
+    position: relative;
+    width: 432px;
+    height: 803px;
+    top: 100px;
+    right: 0px;
+    padding: 1px;
+    border: 2px solid white;
+  }
+}
