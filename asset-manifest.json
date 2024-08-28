@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/soptify-task/static/css/main.edaf5438.css",
-    "main.js": "/soptify-task/static/js/main.2d511dc4.js",
-    "static/js/453.c572cae4.chunk.js": "/soptify-task/static/js/453.c572cae4.chunk.js",
-    "index.html": "/soptify-task/index.html",
-    "main.edaf5438.css.map": "/soptify-task/static/css/main.edaf5438.css.map",
-    "main.2d511dc4.js.map": "/soptify-task/static/js/main.2d511dc4.js.map",
-    "453.c572cae4.chunk.js.map": "/soptify-task/static/js/453.c572cae4.chunk.js.map"
+    "main.css": "/spotify-task/static/css/main.edaf5438.css",
+    "main.js": "/spotify-task/static/js/main.73946f58.js",
+    "static/js/453.c572cae4.chunk.js": "/spotify-task/static/js/453.c572cae4.chunk.js",
+    "index.html": "/spotify-task/index.html",
+    "main.edaf5438.css.map": "/spotify-task/static/css/main.edaf5438.css.map",
+    "main.73946f58.js.map": "/spotify-task/static/js/main.73946f58.js.map",
+    "453.c572cae4.chunk.js.map": "/spotify-task/static/js/453.c572cae4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edaf5438.css",
-    "static/js/main.2d511dc4.js"
+    "static/js/main.73946f58.js"
   ]
 }
