@@ -2,7 +2,7 @@ Task : Spotify Music App
 
 
 name : Busapalli Nandiswar
-email : nandiswarb93@gmail.com
+email : bnandiswar93@gmail.com
 mobile : 9391126693
 
 
